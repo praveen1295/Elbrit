@@ -60,11 +60,6 @@ const OverlappingContainers = () => {
             title={"kdhfjks kkj"}
             description={"h hscbjh uyad c"}
           />{" "}
-          <IngredientCard
-            imageUrl={"/assets/images/bn2-2.jpg.png"}
-            title={"kdhfjks kkj"}
-            description={"h hscbjh uyad c"}
-          />
         </div>
       </div>
       <div className="w-full px-12">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const IngredientCard = ({ imageUrl, title, description }) => {
   return (
-    <div className="relative w-full max-w-[280px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[160px] sm:h-[160px] md:h-[180px] lg:h-[180px] rounded-lg overflow-hidden">
+    <div className="relative w-full max-w-[280px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[280px] h-[160px] sm:h-[160px] md:h-[180px] lg:h-[180px] rounded-lg overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
