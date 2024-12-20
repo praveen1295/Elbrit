@@ -7,7 +7,7 @@ import React from "react";
 const OverlappingContainers = () => {
   return (
     <div className="w-full">
-      <div className="min-h-screen flex flex-col items-center justify-center space-y-96 mt-4">
+      <div className="min-h-screen flex flex-col items-center justify-center space-y-4 mt-4">
         {/* Wrapper for Overlapping Containers */}
         <div className="relative w-full flex flex-col items-center justify-center px-8">
           {/* First Container - 90% of Full Screen Height */}
@@ -20,7 +20,7 @@ const OverlappingContainers = () => {
 
           {/* Second Container Overlapping */}
 
-          <div className="mt-0 sm:-mt-12 md:-mt-16 lg:-mt-24 flex justify-center">
+          <div className="mt-0 sm:-mt-10 md:-mt-14 lg:-mt-18 flex justify-center">
             <CategoryCard />
           </div>
         </div>

@@ -31,12 +31,12 @@ export default function BannerSlider() {
           </div>
 
           {/* Image */}
-          <div className="w-full md:w-1/3 h-64 md:h-96 relative">
+          <div className="w-full md:w-1/3 h-54 md:h-96 relative">
             <Image
               src="/assets/images/f2-1.png.png"
               alt="Slide Image"
               layout="fill"
-              className="object-cover rounded-lg"
+              className="object-fill"
             />
           </div>
 
